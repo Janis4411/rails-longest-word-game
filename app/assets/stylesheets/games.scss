@@ -1,0 +1,34 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.singleletters{
+  display: flex;
+}
+
+.letter {
+  background-color: lightblue;
+  flex-direction: row;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px gray;
+  border: 1px solid black;
+  }
+
+.score {
+
+}
+
+.button {
+   margin-top: 20px;
+    margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+  }
+}

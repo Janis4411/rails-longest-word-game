@@ -1,0 +1,11 @@
+<h1>SCORE</h1>
+<div class="button">
+  <%= link_to "New game!" , "/new" %>
+</div>
+<div class="score">
+  <% if @found %>
+  <%= "Great Job #{@given_word} is valid english word of #{@length} letters." %>
+  <% else %>
+<%= "Sorry: #{@given_word} was not found"%>
+<% end %>
+</div>
